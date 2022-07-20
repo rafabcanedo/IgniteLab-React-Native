@@ -31,14 +31,14 @@ export function SignIn() {
     />
     <Input 
      mb={8}
-     placeholder="Senha"
+     placeholder="Password"
      InputLeftElement={<Icon as={<Key color={colors.gray[300]} />} ml={4} />}
      secureTextEntry
      onChangeText={setPassword}
     />
 
     <Button 
-     title="Entrar"
+     title="Login"
      w="full"
     />
 
